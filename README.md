@@ -1,70 +1,150 @@
-# Getting Started with Create React App
+# 🧮 React Calculator Project
+
+![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![npm](https://img.shields.io/badge/npm-8.x-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+
+## 📝 Overview
+
+This project is a fully functional calculator built with React. It demonstrates fundamental React concepts including component composition, state management, and event handling.
+
+![Calculator](https://i.imgur.com/8QXhHw4.png)
+
+
+## ✨ Features
+
+- ➕ Basic arithmetic operations (addition, subtraction, multiplication, division)
+- 🔄 Clear and reset functionality
+- 🧠 Memory of previous calculations
+- 📱 Responsive design for all device sizes
+- 🎨 Modern and intuitive user interface
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/calculator-react.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd calculator-react
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm start
+```
+
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000)
+
+## 🏗️ Project Structure
+
+```
+calculator-react/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Calculator.js
+│   │   ├── Button.js
+│   │   └── Display.js
+│   ├── utils/
+│   │   └── randomNumbers.js
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+```
+
+## 🧩 Components
+
+### Calculator
+
+The main component that manages the calculator's state and logic. It renders the display and buttons, and handles all calculations.
+
+### Display
+
+Renders the current input and calculation results with proper formatting.
+
+### Button
+
+Reusable button component with different styles for numbers, operations, and special functions.
+
+## 🛠️ Technical Implementation
+
+- **State Management**: Uses React's useState hook to manage calculator state
+- **Event Handling**: Implements click handlers for all calculator operations
+- **Calculation Logic**: Performs calculations in real-time as users input values
+- **Unique Random Numbers**: Includes utility function for generating unique random numbers when needed
+
+## 🧪 Testing
+
+Run the test suite with:
+
+```bash
+npm test
+```
+
+Tests cover:
+- Component rendering
+- Calculator operations
+- Edge cases and error handling
+
+## 📱 Responsive Design
+
+The calculator is fully responsive and works on:
+- 💻 Desktop computers
+- 📱 Mobile phones
+- 📟 Tablets
+
+## 🔮 Future Enhancements
+
+- [ ] Scientific calculator mode
+- [ ] History of calculations
+- [ ] Themes and customization
+- [ ] Keyboard support
+
+## 📚 Learn More
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+To learn more about React, check out the [React documentation](https://reactjs.org/).
 
-In the project directory, you can run:
+For more advanced topics:
+- [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Analyzing Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Making a Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm start`
+## 📄 License
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 👨‍💻 Author
 
-### `npm test`
+Luis Fernando Richter - [GitHub Profile](https://github.com/lfrichter)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐️ If you found this project helpful, please consider giving it a star! ⭐️
